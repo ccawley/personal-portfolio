@@ -1,0 +1,69 @@
+html, body, header, #intro {
+  height: 100%;
+}
+
+p {
+  font-size: 1.2em;
+  letter-spacing: 0.0625em;
+}
+
+#intro {
+  background: url("../img/images/billy-huynh-278252.jpg")no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.about-me {
+  margin-top: 48px;
+}
+
+.profile {
+  border: 5px solid rgb(157, 70, 101);
+  /*border: 5px solid rgb(182, 233, 220);*/
+  border-radius: 150px;
+  height: 300px;
+  width: 300px;
+}
+
+.project-icon {
+  color: black;
+}
+
+.hidden {
+  display: none;
+  /* visibility: hidden; */
+}
+
+.spacer {
+  height: 8vh;
+}
+
+.small-spacer {
+  height: 4vh;
+}
+
+.large-spacer {
+  height: 10vh;
+}
+
+.xl-spacer {
+  height: 25vh;
+}
+
+.top-nav-collapse {
+  background-color: rgb(28, 35, 49);
+}
+
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: rgb(28, 35, 49);
+  }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: rgb(28, 35, 49);
+  }
+}
