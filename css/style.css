@@ -31,6 +31,18 @@ p {
   color: black;
 }
 
+.project-icon:hover {
+  color: gray;
+}
+
+.contact-icon {
+  color: rgb(157, 70, 101);
+}
+
+.contact-icon:hover {
+  color: rgb(192, 73, 90);
+}
+
 .hidden {
   display: none;
   /* visibility: hidden; */

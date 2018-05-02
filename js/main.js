@@ -1,16 +1,16 @@
 $(document).ready(() => {
-    $('.fa-envelope').click(() => {
-        if ($('#emailTag')[0].innerHTML === 'curtis.cawley@icloud.com') {
-          $('#emailTag').fadeOut()
-          $('#emailTag').promise().done(()=>{
-            $('#emailTag')[0].innerHTML = 'Email'
-            $('#emailTag').fadeIn()
+    $('.fa-envelope-square').click(() => {
+        if ($('#emailContact')[0].innerHTML === 'curtis.cawley@icloud.com') {
+          $('#emailContact').fadeOut()
+          $('#emailContact').promise().done(()=>{
+            $('#emailContact')[0].innerHTML = 'Email'
+            $('#emailContact').fadeIn()
           })
         } else {
-          $('#emailTag').fadeOut()
-          $('#emailTag').promise().done(()=>{
-            $('#emailTag')[0].innerHTML = 'curtis.cawley@icloud.com'
-            $('#emailTag').fadeIn()
+          $('#emailContact').fadeOut()
+          $('#emailContact').promise().done(()=>{
+            $('#emailContact')[0].innerHTML = 'curtis.cawley@icloud.com'
+            $('#emailContact').fadeIn()
           })
         }
     })
